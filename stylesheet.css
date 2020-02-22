@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+/*---------------menu--------------*/
+nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #322E2E;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1A1515;
+}
+
+/*-------------------section generalt-----------------*/
+
+section {
+    display: block;
+    background: #F8F8F8;
+    height: 100%;
+}
+
+/*-------------------section 1-----------------*/
+#et {
+    background-image: url(billeder/1.0.2.jpg);
+    background-size: cover;
+}
+
+/*-------------------section 2-----------------*/
+#to {
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+#to p {
+    font-size: 4rem;
+
+}
+
+/*-------------------section 3-----------------*/
+#tre p {}
+
+/*-------------------section 4-----------------*/
+#fire {
+    background-color: white;
+}
