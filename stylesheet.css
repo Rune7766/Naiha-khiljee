@@ -13,6 +13,8 @@ body {
 p {
     margin: 0;
     font-size: 1rem;
+    font-family: 'Poppins';
+
 }
 
 
@@ -55,29 +57,54 @@ section {
     height: 100%;
 }
 
-/*-------------------section 1-----------------*/
+/*-------------------section 01-----------------*/
 #et {
     background-image: url(billeder/1.0.2.jpg);
     background-size: cover;
 }
 
-/*-------------------section 2-----------------*/
+.Logo {}
+
+/*-------------------section 02-----------------*/
 #to {
     background-color: white;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+
 
 }
 
-#to p {
-    font-size: 4rem;
-
+.citat p {
+    margin-top: 50vh;
+    margin: 120px;
+    font-size: 3rem;
 }
 
-/*-------------------section 3-----------------*/
+.knap {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+button {
+
+    height: 10vh;
+    width: 30vh;
+    border-radius: 1rem;
+    background-color: #322E2E;
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    color: white;
+}
+
+button a:hover {
+    background-color: #1A1515;
+}
+
+/*-------------------section 03-----------------*/
 #tre p {}
 
-/*-------------------section 4-----------------*/
+/*-------------------section 04-----------------*/
 #fire {
     background-color: white;
 }
