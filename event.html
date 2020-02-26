@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap" rel="stylesheet">
+
+    <style>
+        #liste {
+            font-size: 10rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="index.html">Naiha Khiljee</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <menu>
+        <button class="filter valgt">Alle</button>
+        <button class="filter">Sjælland</button>
+        <button class="filter">Fyn</button>
+        <button class="filter">Jylland</button>
+    </menu>
+    <main id="liste" class="eventkalender">
+
+
+
+    </main>
+
+
+    <template>
+        <div class="kort">
+            <h3 class="indhold">EventNavn</h3>
+
+            <div class="image">
+                <img id="falit" src="billeder/1.0.2.jpg" alt="#">
+            </div>
+            <ul class="detajler">
+                <li class="detaljerSted">sted</li>
+                <li class="detaljerAdresse">adresse</li>
+                <li class="detaljerTid">tid</li>
+                <li class="detaljerPris">pris</li>
+            </ul>
+            <div class="kortBeskrivelse"></div>
+        </div>
+    </template>
+    <script src="events.js"></script>
+
+</body>
+
+</html>
